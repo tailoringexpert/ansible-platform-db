@@ -1,0 +1,8 @@
+---
+liquibase:
+  version: "{{ db_liquibase_version }}"
+  home: "{{ db_liquibase_home }}"
+  src: liquibase-{{ db_liquibase_version }}-bin.tar.gz
+  dest: "{{ db_liquibase_home }}"
+  #/{{ db_liquibase_version }}"
+  remote_src: no
